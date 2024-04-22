@@ -95,9 +95,9 @@ Sync your remarkables with RSYNC (or any other tool). This works the best if you
 rsync -av root@10.11.99.1:/home/root/.local/share/remarkable/xochitl/ <path_to_remarkables>
 ```
 
-I use Docker to create keep the python installtion on my machine clean.
+I use Docker to keep the python installtion on my machine clean.
 
-To build build the container (which will be named ros):
+To build the container (which will be named ros):
 
 ```sh
 docker build -t ros .
